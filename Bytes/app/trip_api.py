@@ -8,9 +8,9 @@ from geopy.geocoders import Nominatim
 
 API_KEY =  "c59f647c-ebaf-47f1-92d7-5302e6641e36"
 
-def main():
+def main(address):
 	
-	values = getRestaurantsInArea(raw_input("Enter address: "))
+	values = getRestaurantsInArea(address)
 
 	for i in values:
 		print i[0], i[1][0], i[1][1]
