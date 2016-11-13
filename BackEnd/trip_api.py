@@ -30,8 +30,11 @@ def getRestaurantsInArea(address, distance=2, ratings=1):
 	#print json.dumps(r.json(), indent=4, sort_keys=True)
 	js = r.json()
 
+<<<<<<< HEAD
 	#Return address to front end
 
+=======
+>>>>>>> e4252bbc2eeecb01d37b9de17614e9938c786313
 	prices = []
 	ratings = []
 
@@ -148,4 +151,8 @@ def geolocator(address):
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
 	main()
+=======
+	main()
+>>>>>>> e4252bbc2eeecb01d37b9de17614e9938c786313
