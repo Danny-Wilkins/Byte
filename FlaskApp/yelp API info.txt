@@ -1,0 +1,5 @@
+
+Consumer Key	8ocQu2I1gBxc7OcsSfYt2A
+Consumer Secret	F5ulxGBDWJK3aNFen_CoLe3Ma0w
+Token	0P8KGvetjnc_sJaQwG3OuzIentzaAcI9
+Token Secret	Coxq7Z_FCpMO5_0GpDl32uOC9LM
