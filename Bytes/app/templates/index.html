@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title> Byte </title> 
+		<meta name = "viewport" content ="width=device-width, initial-scale =1.0">
+		<link href = "css/bootstrap.min.css" rel ="stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<style>
+			input[type=text] {
+		    width: 200px;
+		    box-sizing: border-box;
+		    border: 2px solid #ccc;
+		    border-radius: 4px;
+		    font-size: 16px;
+		    background-color: white;
+		    background-image: url('searchicon.png');
+		    background-position: 0px 0px; 
+		    background-repeat: no-repeat;
+		    padding: 12px 20px 12px 45px;
+		    -webkit-transition: width 0.4s ease-in-out;
+		    transition: width 0.4s ease-in-out;
+		}
+			input[type=text]:focus { width: 75%;}
+		</style>
+
+	</head>
+	<body>  
+		<div class = "navbar navbar-inverse navbar-fixed-top"> 	
+				<div class = "container">
+					<a href = "index.html" class = "navbar-brand "><font color = "white">Byte </font></a>
+					<button class="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse"> 
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+					</button> 
+					<div class = "collapse navbar-collapse navHeaderCollapse">
+						<ul class= "nav navbar-nav navbar-right"> 
+							<li class= "active"><a href = "index.html"> Home </a> </li>
+							<li><a href = "#"> Contact Us </a> </li>
+							<li><a href = "#"> <span class="glyphicon glyphicon-user"> Sign Up </a> </li>
+							<li><a href = "#"> <span class="glyphicon glyphicon-log-in"> Log In </a> </li>
+						</ul> 
+					</div> 
+				</div>
+				</div> 
+		</div>
+		<div class = "container">
+			<div class="page-header">
+			</div>
+		</div>
+  		<div class="jumbotron text-center">
+   		 	<h1><font color = "white">It's simple.</font></h1>      
+    			<p><font color ="white">Just enter your location and we'll find the best deals in your area.</font></p>
+    			<form action = "search.html"> <input type="text" name="search" id="mylocation" placeholder="Time to eat!"> <button type="submit" class="btn btn-default btn-lg"> Go </button> </form> 
+  		</div>	
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src = "js/bootstrap.js"></script>
+		<script>
+		var loc = $("#mylocation");
+		console.log(loc);
+		loc.keyup(function(e) {
+  		console.log( e );
+		});
+		</script> 
+		<h1><center>Your past bytes</center></h1>
+		<div class = "container text-center">
+			<div class = "row">
+				<div class="col-md-4 text">
+					<h3><a href="#">Shake Shack </a></h3>
+					<img class= "shrinkToFit" src="https://cdn.shakeshack.com/wp-content/uploads/2016/10/Salt-Pepper-Honey-Chickn_1-540x359.jpg" alt = "Salt & Pepper Honey Chick'n" width = "298" height ="198"> </img> 
+				</div>
+				<div class="col-md-4">
+					<h3><a href="#">Golden Fried Dumpling</a></h3>
+					<img class = "shrinkToFit" src="http://s3-media4.fl.yelpcdn.com/bphoto/HJwhwenwfh_X8rD0EBvv6g/348s.jpg" alt = "vegetable dumpling" width = "298" height ="198"> </img> 
+				</div>
+				<div class="col-md-4">
+					<h3><a href="#">Pio Bagel </a></h3>
+					<img class="shrinkToFit" src="http://s3.amazonaws.com/downtownbrooklyn/locations/images/000/001/497/large/Pio-Bagel.jpg?1405709963" alt = "Pio Bagel" width = "298" height ="198"> </img> 
+				</div>
+				<div class="col-md-4">
+					<h3><a href="#"> Au Bon Pain </a></h3>
+					<img class="shrinkToFit" src="http://aubonpain.com/sites/default/files/food_image/500x350_TwoTomCaprese.jpg" alt = "TwoTomCaprese" width = "298" height ="208"> </img> 
+				</div>
+				<div class="col-md-4">
+					<h3><a href="#"> Five Guys </a></h3>
+					<img class="shrinkToFit" src="http://www.charlotteobserver.com/news/business/biz-columns-blogs/whats-in-store/qdk0wv/picture38067660/ALTERNATES/FREE_640/fiveguys2" alt = "Five Guys Double Patty Burger" width = "298" height ="208"> </img> 
+				</div>
+				<div class="col-md-4">
+					<h3><a href="#"> Starbucks </a></h3>
+					<img class="shrinkToFit" src="https://s3-media4.fl.yelpcdn.com/bphoto/OqC0L_4B4cetg4o9AOrsMg/ls.jpg" alt = "" width = "250" height ="208"> </img> 
+				</div>
+			</div>
+		</div>
+	</body>
+</html> 
