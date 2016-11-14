@@ -1,6 +1,6 @@
-# RayofHype
+# Bytes
 
-BYTE$
+BYTE
 Abir H., Parina K., Anam, W., Daniel W.
 
 Summary:
