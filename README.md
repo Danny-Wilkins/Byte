@@ -14,7 +14,7 @@ While enjoying some free pizza, we began to discuss the struggles of being broke
 
 There are countless websites to check out food in your area, but they're all missing a critical element: a comparison with other local restaurants to determine if the food is a good value.
 
-<h2>What it does<h2>
+<h2>What it does</h2>
 
 Bytes compares the ratings and cost of a restaurant to other restaurants around you to help you get the best food for your money. Bytes, taking into account cost/rating ratio of local restaurants, calculates a score and assigns a letter grade determining the quality of the deal. The higher the score, the better the deal!
 
